@@ -48,4 +48,4 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression				|Multiplicity       |Voidable
 ---------------------------------------------------------- | -------------------------------|-------------------|---------
-TO BE COMPLETED
+type <a name="type"></a> | //schema-element(us-emf:EnvironmentalManagementFacility)/us-emf:type/@xlink:href | 0..\* | Yes
