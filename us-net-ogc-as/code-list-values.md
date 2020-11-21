@@ -15,10 +15,10 @@ When an attribute has a code list as its type, verify that the values comply wit
 
 The following check is performed for every feature in the dataset, for the 'open' codelist:
 
-* Check that all the [OilGasChemicalsAppurtenanceTypeValue](#OilGasChemicalsAppurtenanceTypeValue) elements has a xlink:href attribute pointing to a [pre-defined value](#preDefinedValue). If the check fails a manual check will be required asking to review the code list definition in order to verify that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
+* Check that all the [appurtenanceType](#appurtenanceType) elements has a xlink:href attribute pointing to a [pre-defined value](#preDefinedValue). If the check fails a manual check will be required asking to review the code list definition in order to verify that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
 
 
-| <a name="preDefinedValue"></a> Pre-defined values for xlink:href attribute of [OilGasChemicalsAppurtenanceTypeValue](#OilGasChemicalsAppurtenanceTypeValue) element are available in the INSPIRE Registry| 
+| <a name="preDefinedValue"></a> Pre-defined values for xlink:href attribute of [appurtenanceType](#appurtenanceType) element are available in the INSPIRE Registry| 
 | ---- | 
 | OilGasChemicalsAppurtenanceTypeValue: http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue | 
 
@@ -49,4 +49,4 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression				|Multiplicity       |Voidable
 ---------------------------------------------------------- | -------------------------------|-------------------|---------
-TO BE COMPLETED
+appurtenanceType <a name="appurtenanceType"></a> | //schema-element(us-net-common:Appurtenance)/us-net-common:appurtenanceType/@xlink:href | 1 | Yes
