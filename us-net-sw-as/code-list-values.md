@@ -20,11 +20,11 @@ The following check is performed for every feature in the dataset, for the 'open
 * Check that all the [sewerWaterType](#sewerWaterType) elements has a xlink:href attribute pointing to a [pre-defined value](#preDefinedValue). If the check fails a manual check will be required asking to review the code list definition in order to verify that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
 
 
-| <a name="preDefinedValue"></a> Pre-defined values for xlink:href attribute of [appurtenanceType)(#appurtenanceType) element are available in the INSPIRE Registry| 
+| <a name="preDefinedValue"></a> Pre-defined values for xlink:href attribute of [appurtenanceType](#appurtenanceType) element are available in the INSPIRE Registry| 
 | ---- | 
 | SewerAppurtenanceTypeValue): http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue | 
 
-| <a name="preDefinedValue"></a> Pre-defined values for xlink:href attribute of [sewerWaterType)(#sewerWaterType) element are available in the INSPIRE Registry| 
+| <a name="preDefinedValue"></a> Pre-defined values for xlink:href attribute of [sewerWaterType](#sewerWaterType) element are available in the INSPIRE Registry| 
 | ---- | 
 | SewerWaterTypeValue): http://inspire.ec.europa.eu/codelist/SewerWaterTypeValue | 
 
