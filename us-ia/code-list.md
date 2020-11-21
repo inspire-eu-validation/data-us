@@ -8,16 +8,15 @@
 
 * Verify that any code list extensions are publicly accessible via HTTP, i.e. inspect extensible code list values property elements. If a reference (@xlink:href) has a value that does not start with http://inspire.ec.europa.eu/codelist/, verify that a HTTP GET request to the URI retrieves a document. Otherwise report [brokenLink](#brokenLink).
 
-This data theme currently has the following extensible code lists:
+This data theme currently has the following empty code lists:
 
-* Specific Appurtenance Type (SpecificAppurtenanceTypeValue)
+* [SpecificAppurtenanceTypeValue](#SpecificAppurtenanceTypeValue): http://inspire.ec.europa.eu/codelist/SpecificAppurtenanceTypeValue
 
-* Oil, Gas and Chemicals Product Type (OilGasChemicalsProductTypeValue)
+* [OilGasChemicalsProductTypeValue](#OilGasChemicalsProductTypeValue): http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue
 
-* Thermal Appurtenance Type (ThermalAppurtenanceTypeValue)
+* [ThermalAppurtenanceTypeValue](#ThermalAppurtenanceTypeValue): http://inspire.ec.europa.eu/codelist/ThermalAppurtenanceTypeValue
 
-* Thermal Product Type (ThermalProductTypeValue)
-
+* [ThermalProductTypeValue](#ThermalProductTypeValue): http://inspire.ec.europa.eu/codelist/ThermalProductTypeValue
 
 
 **Reference(s)**: 
@@ -40,4 +39,7 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression      |Multiplicity   |Voidable
 ---------------------------------------------------------- | -----------------------|---------------|---------------------------------
-TO BE COMPLETED
+SpecificAppurtenanceTypeValue <a name="SpecificAppurtenanceTypeValue"></a> | //schema-element(us-net-common:Appurtenance)/us-net-common:specificAppurtenanceType/@xlink:href | 0..1 | Yes
+OilGasChemicalsProductTypeValue <a name="OilGasChemicalsProductTypeValue"></a> | //schema-element(us-net-ogc:OilGasChemicalsPipe)/us-net-ogc:oilGasChemicalsProductType/@xlink:href | 1..\* | Yes
+ThermalAppurtenanceTypeValue <a name="ThermalAppurtenanceTypeValue"></a> | //schema-element(us-net-common:Appurtenance)/us-net-common:appurtenanceType/@xlink:href | 1 | Yes
+ThermalProductTypeValue <a name="ThermalProductTypeValue"></a> | //schema-element(us-net-th:ThermalPipe)/us-net-th:thermalProductType/@xlink:href | 1 | Yes

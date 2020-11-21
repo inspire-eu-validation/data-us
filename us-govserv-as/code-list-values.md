@@ -48,4 +48,4 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression				|Multiplicity       |Voidable
 ---------------------------------------------------------- | -------------------------------|-------------------|---------
-TO BE COMPLETED
+serviceType <a name="serviceType"></a> | //schema-element(us-govserv:GovernmentalService)/us-govserv:serviceType/@xlink:href | 1 | No
