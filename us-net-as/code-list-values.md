@@ -15,18 +15,24 @@ When an attribute has a code list as its type, verify that the values comply wit
 
 The following check is performed for every feature in the dataset, for the 'open' codelist:
 
-* Check that all the [AppurtenanceTypeValue](#AppurtenanceTypeValue) elements has a xlink:href attribute pointing to a [pre-defined value](#preDefinedValue). If the check fails a manual check will be required asking to review the code list definition in order to verify that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
+* Check that all the [utilityDeliveryType](#utilityDeliveryType) elements has a xlink:href attribute pointing to a [pre-defined value](#preDefinedValue). If the check fails a manual check will be required asking to review the code list definition in order to verify that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
 
-Appurtenance Type (AppurtenanceTypeValue)
-Utility Delivery Type (UtilityDeliveryTypeValue)
-Utility Network Type (UtilityNetworkTypeValue)
-Warning Type (WarningTypeValue)
+* Check that all the [warningType](#warningType) elements has a xlink:href attribute pointing to a [pre-defined value](#preDefinedValue1). If the check fails a manual check will be required asking to review the code list definition in order to verify that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
 
+* Check that all the [utilityNetworkType](#utilityNetworkType) elements has a xlink:href attribute pointing to a [pre-defined value](#preDefinedValue2). If the check fails a manual check will be required asking to review the code list definition in order to verify that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule. If the check fails report [reviewCodeListValue](#reviewCodeListValue).
 
 
-| <a name="preDefinedValue"></a> Pre-defined values for xlink:href attribute of [AppurtenanceTypeValue](#AppurtenanceTypeValue) element are available in the INSPIRE Registry| 
+| <a name="preDefinedValue"></a> Pre-defined values for xlink:href attribute of [utilityDeliveryType](#utilityDeliveryType) element are available in the INSPIRE Registry| 
 | ---- | 
-| AppurtenanceTypeValue: http://inspire.ec.europa.eu/codelist/AppurtenanceTypeValue | 
+| UtilityDeliveryTypeValue: http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeValue | 
+
+| <a name="preDefinedValue1"></a> Pre-defined values for xlink:href attribute of [warningType](#warningType) element are available in the INSPIRE Registry| 
+| ---- | 
+| WarningTypeValue: http://inspire.ec.europa.eu/codelist/WarningTypeValue | 
+
+| <a name="preDefinedValue1"></a> Pre-defined values for xlink:href attribute of [utilityNetworkType](#utilityNetworkType) element are available in the INSPIRE Registry| 
+| ---- | 
+| UtilityNetworkTypeValue: http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue | 
 
 
 **Reference(s)**: 
@@ -55,4 +61,6 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression				|Multiplicity       |Voidable
 ---------------------------------------------------------- | -------------------------------|-------------------|---------
-TO BE COMPLETED
+utilityDeliveryType <a name="utilityDeliveryType"></a> | //schema-element(/us-net-common:Pipe)/us-net-common:utilityDeliveryType/@xlink:href <br> //schema-element(/us-net-common:Duct)/us-net-common:utilityDeliveryType/@xlink:href <br> //schema-element(/us-net-el:ElectricityCable)/us-net-common:utilityDeliveryType/@xlink:href <br> //schema-element(/us-net-ogc:OilGasChemicalsPipe)/us-net-common:utilityDeliveryType/@xlink:href <br> //schema-element(/us-net-sw:SewerPipe)/us-net-common:utilityDeliveryType/@xlink:href <br> //schema-element(/us-net-th:ThermalPipe)/us-net-common:utilityDeliveryType/@xlink:href <br> //schema-element(/us-net-wa:WaterPipe)/us-net-common:utilityDeliveryType/@xlink:href | 0..1 | Yes
+warningType <a name="warningType"></a> | //schema-element(/us-net-common:Pipe)/us-net-common:warningType/@xlink:href <br> //schema-element(/us-net-common:Duct)/us-net-common:warningType/@xlink:href <br> //schema-element(/us-net-el:ElectricityCable)/us-net-common:warningType/@xlink:href <br> //schema-element(/us-net-ogc:OilGasChemicalsPipe)/us-net-common:warningType/@xlink:href <br> //schema-element(/us-net-sw:SewerPipe)/us-net-common:warningType/@xlink:href <br> //schema-element(/us-net-th:ThermalPipe)/us-net-common:warningType/@xlink:href <br> //schema-element(/us-net-wa:WaterPipe)/us-net-common:warningType/@xlink:href | 1 | Yes
+utilityNetworkType <a name="utilityNetworkType"></a> | //schema-element(/us-net-common:UtilityNetwork)/us-net-common:utilityNetworkType/@xlink:href | 1 | No
