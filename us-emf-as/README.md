@@ -23,7 +23,11 @@ An indirect dependency is another conformance class whose requirements must be m
 | Specification | Conformance class | Related resource | Parameters |
 | ------------- | ----------------- | ---------------- | ---------- |
 | [TG DS-US](./README.md#ref_TG_DS_US) | [GML application schemas, Utility and Government Services](../us-gml/README.md) | INSPIRE spatial data set encoded in GML, Utility and Government Services features | n/a |
- 
+
+### Notes
+
+The EnvironmentalManagementFacility feature type inherits the ActivityComplex feature type, defined by a separated application schema. The ActivityComplex application schema defines additional requirements (codelists, contraints) that are not currently verified. A dedicated Conformance Class will be developed at a second stage.
+
 ## Feature types <a name="feature-types"></a>
 
 The instantiable feature type is:
