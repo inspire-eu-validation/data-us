@@ -8,8 +8,8 @@
 
 The following checks are performed for every feature in the dataset:
 
-* Check that all [UtilityLinkSets](#UtilityLinkSets) objects have an external object identifier. (OCL:*/inv: inspireId->notEmpty())
-* Check that all [UtilityNode](#UtilityNode) objects have an external object identifier. (OCL:*/inv: inspireId->notEmpty())
+* Check that all [UtilityLinkSets objects](#UtilityLinkSets) have an external object identifier. (OCL:*/inv: inspireId->notEmpty())
+* Check that all [UtilityNode objects](#UtilityNode) have an external object identifier. (OCL:*/inv: inspireId->notEmpty())
 * Check that the multiplicity of the [utilityDeliveryType](#utilityDeliveryType) attribute is 0. (OCL:*/inv: utilityDeliveryType->size()=0)
 
 
