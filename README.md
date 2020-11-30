@@ -6,19 +6,19 @@ The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
-| [GML application schemas, Utility and Government Services](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-gml) | INSPIRE spatial data set encoded in GML, Utility and Government Services features |
-| [Application Schema, Common Utility Network Elements](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-net-as) | INSPIRE spatial data set |
-| [Application Schema, Electricity Network](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-net-el-as) | INSPIRE spatial data set |
-| [Application Schema, Oil-Gas-Chemicals Network](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-net-ogc-as) | INSPIRE spatial data set |
-| [Application Schema, Sewer Network](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-net-sw-as) | INSPIRE spatial data set |
-| [Application Schema, Thermal Network](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-net-th-as) | INSPIRE spatial data set |
-| [Application Schema, Water Network](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-net-wa-as) | INSPIRE spatial data set |
-| [Application Schema, Environmental Management Facilities](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-emf-as) | INSPIRE spatial data set |
-| [Application Schema, Administrative And Social Governmental Services](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-govserv-as) | INSPIRE spatial data set |
-| [Reference Systems, Utility and Government Services](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-rs) | INSPIRE spatial data set |
-| [Data Consistency, Utility and Government Services](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-dc) | INSPIRE spatial data set |
-| [Information Accessibility, Utility and Government Services](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-ia) | INSPIRE spatial data set |
-| [Portrayal, Utility and Government Services](http://inspire.ec.europa.eu/id/ats/data-us/3.0/us-portrayal) | INSPIRE view service |
+| [GML application schemas, Utility and Government Services](http://inspire.ec.europa.eu/id/ats/data-us/master/us-gml) | INSPIRE spatial data set encoded in GML, Utility and Government Services features |
+| [Application Schema, Common Utility Network Elements](http://inspire.ec.europa.eu/id/ats/data-us/master/us-net-as) | INSPIRE spatial data set |
+| [Application Schema, Electricity Network](http://inspire.ec.europa.eu/id/ats/data-us/master/us-net-el-as) | INSPIRE spatial data set |
+| [Application Schema, Oil-Gas-Chemicals Network](http://inspire.ec.europa.eu/id/ats/data-us/master/us-net-ogc-as) | INSPIRE spatial data set |
+| [Application Schema, Sewer Network](http://inspire.ec.europa.eu/id/ats/data-us/master/us-net-sw-as) | INSPIRE spatial data set |
+| [Application Schema, Thermal Network](http://inspire.ec.europa.eu/id/ats/data-us/master/us-net-th-as) | INSPIRE spatial data set |
+| [Application Schema, Water Network](http://inspire.ec.europa.eu/id/ats/data-us/master/us-net-wa-as) | INSPIRE spatial data set |
+| [Application Schema, Environmental Management Facilities](http://inspire.ec.europa.eu/id/ats/data-us/master/us-emf-as) | INSPIRE spatial data set |
+| [Application Schema, Administrative And Social Governmental Services](http://inspire.ec.europa.eu/id/ats/data-us/master/us-govserv-as) | INSPIRE spatial data set |
+| [Reference Systems, Utility and Government Services](http://inspire.ec.europa.eu/id/ats/data-us/master/us-rs) | INSPIRE spatial data set |
+| [Data Consistency, Utility and Government Services](http://inspire.ec.europa.eu/id/ats/data-us/master/us-dc) | INSPIRE spatial data set |
+| [Information Accessibility, Utility and Government Services](http://inspire.ec.europa.eu/id/ats/data-us/master/us-ia) | INSPIRE spatial data set |
+| [Portrayal, Utility and Government Services](http://inspire.ec.europa.eu/id/ats/data-us/master/us-portrayal) | INSPIRE view service |
 
 
 ## Approach
