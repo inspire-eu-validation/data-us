@@ -10,7 +10,17 @@
 
 This data theme currently has the following association role:
 
-* TO BE VERIFIED
+* [UtilityNetwork.networks](#networks): UtilityNetwork 
+* [Cabinet.nodes](#nodes1): Appurtenance
+* [Manhole.nodes](#nodes2): Appurtenance
+* [Pole.nodes](#nodes3): Appurtenance
+* [Tower.nodes](#nodes4): Appurtenance
+* [Duct.cables](#cables): Cable
+* [Duct.ducts](#ducts): Duct
+* [Duct.pipes](#pipes): Pipe
+* [Pipe.cables](#cablesP): Cable
+* [Pipe.pipes](#pipesP): Pipe
+* [EnvironmentalManagementFacility.parentFacility](#parentFacility): EnvironmentalManagementFacility
 
 
 **Reference(s)**: 
@@ -33,4 +43,14 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                         |  XPath expression    | Multiplicity    | Voidable
 ------------------------------------ | ---------------------|-----------------|------------
-TO BE COMPLETED
+UtilityNetwork.networks <a name ="networks"></a>	| //schema-element(us-net-common:UtilityNetwork)/us-net-common:networks/@xlink:href | 0..\* | Yes
+Cabinet.nodes <a name ="nodes1"></a>	| //schema-element(us-net-common:Cabinet)/us-net-common:nodes/@xlink:href | 0..\* | Yes
+Manhole.nodes <a name ="nodes2"></a>	| //schema-element(us-net-common:Manhole)/us-net-common:nodes/@xlink:href | 0..\* | Yes
+Pole.nodes <a name ="nodes3"></a>	| //schema-element(us-net-common:Pole)/us-net-common:nodes/@xlink:href | 0..\* | Yes
+Tower.nodes <a name ="nodes4"></a>	| //schema-element(us-net-common:Tower)/us-net-common:nodes/@xlink:href | 0..\* | Yes
+Duct.cables <a name ="cables"></a>	| //schema-element(us-net-common:Duct)/us-net-common:cables/@xlink:href | 0..\* | Yes
+Duct.ducts <a name ="ducts"></a>	| //schema-element(us-net-common:Duct)/us-net-common:ducts/@xlink:href | 0..\* | Yes
+Duct.pipes <a name ="pipes"></a>	| //schema-element(us-net-common:Duct)/us-net-common:pipes/@xlink:href | 0..\* | No
+Pipe.cables <a name ="cablesP"></a>	| //schema-element(us-net-common:Pipe)/us-net-common:cables/@xlink:href | 0..\* | Yes
+Pipe.pipes <a name ="pipesP"></a>	| //schema-element(us-net-common:Pipe)/us-net-common:pipes/@xlink:href | 0..\* | Yes
+EnvironmentalManagementFacility.parentFacility <a name ="parentFacility"></a>	| //schema-element(us-emf:EnvironmentalManagementFacility )/us-emf:parentFacility /@xlink:href | 0..\* | Yes
