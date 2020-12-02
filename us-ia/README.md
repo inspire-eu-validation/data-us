@@ -27,6 +27,10 @@ An indirect dependency is another conformance class whose requirements must be m
 | Specification | Conformance class | Related resource | Parameters |
 | ------------- | ----------------- | ---------------- | ---------- |
 | [TG DS-US](#ref_TG_DS_US) | [GML application schemas, Utility and Government Services](../us-gml/README.md) | INSPIRE spatial data set encoded in GML, Utility and Government Services features | n/a |
+
+### Notes
+
+The 'Common Utility Network Elements' application schema inherits feature types defined by the Generic Network Model (specified by the Network application schema). The Network application schema defines additional requirements (codelists, contraints, associations) that are not currently verified. A dedicated Conformance Class will be developed at a second stage.
  
 ## Feature types <a name="feature-types"></a>
 
