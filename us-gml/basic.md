@@ -30,4 +30,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                          |  XPath expression
 ----------------------------------------------------- | ------------------------------------------------------------------
-features <a name="features"></a>   |  //schema-element(TO BE VERIFIED)
+features <a name="features"></a> | //schema-element(us-emf:EnvironmentalManagementFacility) \| //schema-element(us-govserv:GovernmentalService) \| //schema-element(us-net-common:Appurtenance) \|//schema-element(us-net-common:Cabinet) \| //schema-element(us-net-common:Duct) \| //schema-element(us-net-common:Manhole) \| //schema-element(us-net-common:Pipe) \| //schema-element(us-net-common:Pole) \| //schema-element(us-net-common:Tower) \| //schema-element(us-net-common:UtilityLink) \| //schema-element(us-net-common:UtilityLinkSequence) \| //schema-element(us-net-common:UtilityNetwork) \| //schema-element(us-net-el:ElectricityCable) \| //schema-element(us-net-ogc:OilGasChemicalsPipe) \| //schema-element(us-net-sw:SewerPipe) \| //schema-element(us-net-th:ThermalPipe) \| //schema-element(us-net-wa:WaterPipe)
