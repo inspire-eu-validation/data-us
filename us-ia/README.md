@@ -32,6 +32,25 @@ An indirect dependency is another conformance class whose requirements must be m
 
 The instantiable feature types are:
 
+* Appurtenance
+* Cabinet
+* Cable
+* Duct
+* Manhole
+* Pipe
+* Pole
+* Tower
+* Utility Link
+* Utility Link Sequence
+* Utility Network
+* ElectricityCable
+* OilGasChemicalsPipe
+* SewerPipe
+* ThermalPipe
+* WaterPipe
+* EnvironmentalManagementFacility
+* GovernmentalService
+
 
 *Note*: When "features" or "spatial objects" are mentioned in the test cases, this refers only to instances of feature types of this application schema, not to any types specified in any other application schema.
 
@@ -69,4 +88,4 @@ The following variables are used to refer to the corresponding Xpath expressions
 
 Variable       | Value
 -------------- | -------------------------------------------------
-$features      |  //schema-element(TO BE VERIFIED)
+$features      | //schema-element(us-emf:EnvironmentalManagementFacility) \| //schema-element(us-govserv:GovernmentalService) \| //schema-element(us-net-common:Appurtenance) \|//schema-element(us-net-common:Cabinet) \| //schema-element(us-net-common:Duct) \| //schema-element(us-net-common:Manhole) \| //schema-element(us-net-common:Pipe) \| //schema-element(us-net-common:Pole) \| //schema-element(us-net-common:Tower) \| //schema-element(us-net-common:UtilityLink) \| //schema-element(us-net-common:UtilityLinkSequence) \| //schema-element(us-net-common:UtilityNetwork) \| //schema-element(us-net-el:ElectricityCable) \| //schema-element(us-net-ogc:OilGasChemicalsPipe) \| //schema-element(us-net-sw:SewerPipe) \| //schema-element(us-net-th:ThermalPipe) \| //schema-element(us-net-wa:WaterPipe)
