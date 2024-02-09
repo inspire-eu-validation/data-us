@@ -10,13 +10,13 @@
 
 * Validate each document against the latest INSPIRE official schema(s), using strict XML schema validation. 
   The official schemas for this data theme are:
-  *  Administrative and Social Governmental Services: https://inspire.ec.europa.eu/schemas/us-govserv/4.0/GovernmentalServices.xsd
+  *  Administrative and Social Governmental Services: https://inspire.ec.europa.eu/schemas/us-govserv/5.0/GovernmentalServices.xsd
   *  Environmental Management Facilities: https://inspire.ec.europa.eu/schemas/us-emf/4.0/EnvironmentalManagementFacilities.xsd
-  *  Electricity Network: https://inspire.ec.europa.eu/schemas/us-net-el/4.0/ElectricityNetwork.xsd
-  *  Oil-Gas-Chemical Network: https://inspire.ec.europa.eu/schemas/us-net-ogc/4.0/OilGasChemicalsNetwork.xsd
-  *  Sewer Network: https://inspire.ec.europa.eu/schemas/us-net-sw/4.0/SewerNetwork.xsd
-  *  Thermal Network: https://inspire.ec.europa.eu/schemas/us-net-th/4.0/ThermalNetwork.xsd
-  *  Water Network: https://inspire.ec.europa.eu/schemas/us-net-wa/4.0/WaterNetwork.xsd
+  *  Electricity Network: https://inspire.ec.europa.eu/schemas/us-net-el/5.0/ElectricityNetwork.xsd
+  *  Oil-Gas-Chemical Network: https://inspire.ec.europa.eu/schemas/us-net-ogc/5.0/OilGasChemicalsNetwork.xsd
+  *  Sewer Network: https://inspire.ec.europa.eu/schemas/us-net-sw/5.0/SewerNetwork.xsd
+  *  Thermal Network: https://inspire.ec.europa.eu/schemas/us-net-th/5.0/ThermalNetwork.xsd
+  *  Water Network: https://inspire.ec.europa.eu/schemas/us-net-wa/5.0/WaterNetwork.xsd
 
 **Reference(s)**: 
 
